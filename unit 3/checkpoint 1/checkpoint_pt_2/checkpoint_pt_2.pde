@@ -18,10 +18,6 @@ void draw(){
 void mouseDragged(){
   slider();
 }
- 
-void mouseReleased(){
-  slider(); 
-}
 
 void slider(){
     if(mouseY>280 && mouseY<320 && mouseX>50 && mouseX<750 && mouseX>x-50 && mouseX<x+50){
